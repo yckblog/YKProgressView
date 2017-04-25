@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4438EA8B1EAF3A4A0030CE15 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4438EA8A1EAF3A4A0030CE15 /* main.m */; };
+		4438EA8E1EAF3A4A0030CE15 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4438EA8D1EAF3A4A0030CE15 /* AppDelegate.m */; };
+		4438EA911EAF3A4A0030CE15 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4438EA901EAF3A4A0030CE15 /* ViewController.m */; };
+		4438EA941EAF3A4A0030CE15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4438EA921EAF3A4A0030CE15 /* Main.storyboard */; };
+		4438EA961EAF3A4A0030CE15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4438EA951EAF3A4A0030CE15 /* Assets.xcassets */; };
+		4438EA991EAF3A4A0030CE15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4438EA971EAF3A4A0030CE15 /* LaunchScreen.storyboard */; };
+		4438EAA41EAF3A4A0030CE15 /* YKProgressViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4438EAA31EAF3A4A0030CE15 /* YKProgressViewTests.m */; };
+		4438EAAF1EAF3A4A0030CE15 /* YKProgressViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4438EAAE1EAF3A4A0030CE15 /* YKProgressViewUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4438EAA01EAF3A4A0030CE15 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4438EA7E1EAF3A4A0030CE15 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4438EA851EAF3A4A0030CE15;
+			remoteInfo = YKProgressView;
+		};
+		4438EAAB1EAF3A4A0030CE15 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4438EA7E1EAF3A4A0030CE15 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4438EA851EAF3A4A0030CE15;
+			remoteInfo = YKProgressView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4438EA861EAF3A4A0030CE15 /* YKProgressView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YKProgressView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4438EA8A1EAF3A4A0030CE15 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4438EA8C1EAF3A4A0030CE15 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4438EA8D1EAF3A4A0030CE15 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4438EA8F1EAF3A4A0030CE15 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4438EA901EAF3A4A0030CE15 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4438EA931EAF3A4A0030CE15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4438EA951EAF3A4A0030CE15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4438EA981EAF3A4A0030CE15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4438EA9A1EAF3A4A0030CE15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4438EA9F1EAF3A4A0030CE15 /* YKProgressViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YKProgressViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4438EAA31EAF3A4A0030CE15 /* YKProgressViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YKProgressViewTests.m; sourceTree = "<group>"; };
+		4438EAA51EAF3A4A0030CE15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4438EAAA1EAF3A4A0030CE15 /* YKProgressViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YKProgressViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4438EAAE1EAF3A4A0030CE15 /* YKProgressViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YKProgressViewUITests.m; sourceTree = "<group>"; };
+		4438EAB01EAF3A4A0030CE15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4438EA831EAF3A4A0030CE15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4438EA9C1EAF3A4A0030CE15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4438EAA71EAF3A4A0030CE15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4438EA7D1EAF3A4A0030CE15 = {
+			isa = PBXGroup;
+			children = (
+				4438EA881EAF3A4A0030CE15 /* YKProgressView */,
+				4438EAA21EAF3A4A0030CE15 /* YKProgressViewTests */,
+				4438EAAD1EAF3A4A0030CE15 /* YKProgressViewUITests */,
+				4438EA871EAF3A4A0030CE15 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4438EA871EAF3A4A0030CE15 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4438EA861EAF3A4A0030CE15 /* YKProgressView.app */,
+				4438EA9F1EAF3A4A0030CE15 /* YKProgressViewTests.xctest */,
+				4438EAAA1EAF3A4A0030CE15 /* YKProgressViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4438EA881EAF3A4A0030CE15 /* YKProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				4438EA8C1EAF3A4A0030CE15 /* AppDelegate.h */,
+				4438EA8D1EAF3A4A0030CE15 /* AppDelegate.m */,
+				4438EA8F1EAF3A4A0030CE15 /* ViewController.h */,
+				4438EA901EAF3A4A0030CE15 /* ViewController.m */,
+				4438EA921EAF3A4A0030CE15 /* Main.storyboard */,
+				4438EA951EAF3A4A0030CE15 /* Assets.xcassets */,
+				4438EA971EAF3A4A0030CE15 /* LaunchScreen.storyboard */,
+				4438EA9A1EAF3A4A0030CE15 /* Info.plist */,
+				4438EA891EAF3A4A0030CE15 /* Supporting Files */,
+			);
+			path = YKProgressView;
+			sourceTree = "<group>";
+		};
+		4438EA891EAF3A4A0030CE15 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4438EA8A1EAF3A4A0030CE15 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4438EAA21EAF3A4A0030CE15 /* YKProgressViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				4438EAA31EAF3A4A0030CE15 /* YKProgressViewTests.m */,
+				4438EAA51EAF3A4A0030CE15 /* Info.plist */,
+			);
+			path = YKProgressViewTests;
+			sourceTree = "<group>";
+		};
+		4438EAAD1EAF3A4A0030CE15 /* YKProgressViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4438EAAE1EAF3A4A0030CE15 /* YKProgressViewUITests.m */,
+				4438EAB01EAF3A4A0030CE15 /* Info.plist */,
+			);
+			path = YKProgressViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4438EA851EAF3A4A0030CE15 /* YKProgressView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4438EAB31EAF3A4A0030CE15 /* Build configuration list for PBXNativeTarget "YKProgressView" */;
+			buildPhases = (
+				4438EA821EAF3A4A0030CE15 /* Sources */,
+				4438EA831EAF3A4A0030CE15 /* Frameworks */,
+				4438EA841EAF3A4A0030CE15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YKProgressView;
+			productName = YKProgressView;
+			productReference = 4438EA861EAF3A4A0030CE15 /* YKProgressView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4438EA9E1EAF3A4A0030CE15 /* YKProgressViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4438EAB61EAF3A4A0030CE15 /* Build configuration list for PBXNativeTarget "YKProgressViewTests" */;
+			buildPhases = (
+				4438EA9B1EAF3A4A0030CE15 /* Sources */,
+				4438EA9C1EAF3A4A0030CE15 /* Frameworks */,
+				4438EA9D1EAF3A4A0030CE15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4438EAA11EAF3A4A0030CE15 /* PBXTargetDependency */,
+			);
+			name = YKProgressViewTests;
+			productName = YKProgressViewTests;
+			productReference = 4438EA9F1EAF3A4A0030CE15 /* YKProgressViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4438EAA91EAF3A4A0030CE15 /* YKProgressViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4438EAB91EAF3A4A0030CE15 /* Build configuration list for PBXNativeTarget "YKProgressViewUITests" */;
+			buildPhases = (
+				4438EAA61EAF3A4A0030CE15 /* Sources */,
+				4438EAA71EAF3A4A0030CE15 /* Frameworks */,
+				4438EAA81EAF3A4A0030CE15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4438EAAC1EAF3A4A0030CE15 /* PBXTargetDependency */,
+			);
+			name = YKProgressViewUITests;
+			productName = YKProgressViewUITests;
+			productReference = 4438EAAA1EAF3A4A0030CE15 /* YKProgressViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4438EA7E1EAF3A4A0030CE15 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = yzl;
+				TargetAttributes = {
+					4438EA851EAF3A4A0030CE15 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+					};
+					4438EA9E1EAF3A4A0030CE15 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4438EA851EAF3A4A0030CE15;
+					};
+					4438EAA91EAF3A4A0030CE15 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4438EA851EAF3A4A0030CE15;
+					};
+				};
+			};
+			buildConfigurationList = 4438EA811EAF3A4A0030CE15 /* Build configuration list for PBXProject "YKProgressView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4438EA7D1EAF3A4A0030CE15;
+			productRefGroup = 4438EA871EAF3A4A0030CE15 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4438EA851EAF3A4A0030CE15 /* YKProgressView */,
+				4438EA9E1EAF3A4A0030CE15 /* YKProgressViewTests */,
+				4438EAA91EAF3A4A0030CE15 /* YKProgressViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4438EA841EAF3A4A0030CE15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4438EA991EAF3A4A0030CE15 /* LaunchScreen.storyboard in Resources */,
+				4438EA961EAF3A4A0030CE15 /* Assets.xcassets in Resources */,
+				4438EA941EAF3A4A0030CE15 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4438EA9D1EAF3A4A0030CE15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4438EAA81EAF3A4A0030CE15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4438EA821EAF3A4A0030CE15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4438EA911EAF3A4A0030CE15 /* ViewController.m in Sources */,
+				4438EA8E1EAF3A4A0030CE15 /* AppDelegate.m in Sources */,
+				4438EA8B1EAF3A4A0030CE15 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4438EA9B1EAF3A4A0030CE15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4438EAA41EAF3A4A0030CE15 /* YKProgressViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4438EAA61EAF3A4A0030CE15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4438EAAF1EAF3A4A0030CE15 /* YKProgressViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4438EAA11EAF3A4A0030CE15 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4438EA851EAF3A4A0030CE15 /* YKProgressView */;
+			targetProxy = 4438EAA01EAF3A4A0030CE15 /* PBXContainerItemProxy */;
+		};
+		4438EAAC1EAF3A4A0030CE15 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4438EA851EAF3A4A0030CE15 /* YKProgressView */;
+			targetProxy = 4438EAAB1EAF3A4A0030CE15 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4438EA921EAF3A4A0030CE15 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4438EA931EAF3A4A0030CE15 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4438EA971EAF3A4A0030CE15 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4438EA981EAF3A4A0030CE15 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4438EAB11EAF3A4A0030CE15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4438EAB21EAF3A4A0030CE15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4438EAB41EAF3A4A0030CE15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YKProgressView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = myProject.YKProgressView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4438EAB51EAF3A4A0030CE15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YKProgressView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = myProject.YKProgressView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4438EAB71EAF3A4A0030CE15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YKProgressViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = myProject.YKProgressViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YKProgressView.app/YKProgressView";
+			};
+			name = Debug;
+		};
+		4438EAB81EAF3A4A0030CE15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YKProgressViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = myProject.YKProgressViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YKProgressView.app/YKProgressView";
+			};
+			name = Release;
+		};
+		4438EABA1EAF3A4A0030CE15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YKProgressViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = myProject.YKProgressViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YKProgressView;
+			};
+			name = Debug;
+		};
+		4438EABB1EAF3A4A0030CE15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YKProgressViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = myProject.YKProgressViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YKProgressView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4438EA811EAF3A4A0030CE15 /* Build configuration list for PBXProject "YKProgressView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4438EAB11EAF3A4A0030CE15 /* Debug */,
+				4438EAB21EAF3A4A0030CE15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4438EAB31EAF3A4A0030CE15 /* Build configuration list for PBXNativeTarget "YKProgressView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4438EAB41EAF3A4A0030CE15 /* Debug */,
+				4438EAB51EAF3A4A0030CE15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4438EAB61EAF3A4A0030CE15 /* Build configuration list for PBXNativeTarget "YKProgressViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4438EAB71EAF3A4A0030CE15 /* Debug */,
+				4438EAB81EAF3A4A0030CE15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4438EAB91EAF3A4A0030CE15 /* Build configuration list for PBXNativeTarget "YKProgressViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4438EABA1EAF3A4A0030CE15 /* Debug */,
+				4438EABB1EAF3A4A0030CE15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4438EA7E1EAF3A4A0030CE15 /* Project object */;
+}
