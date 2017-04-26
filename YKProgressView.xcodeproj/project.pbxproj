@@ -15,6 +15,11 @@
 		4438EA991EAF3A4A0030CE15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4438EA971EAF3A4A0030CE15 /* LaunchScreen.storyboard */; };
 		4438EAA41EAF3A4A0030CE15 /* YKProgressViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4438EAA31EAF3A4A0030CE15 /* YKProgressViewTests.m */; };
 		4438EAAF1EAF3A4A0030CE15 /* YKProgressViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4438EAAE1EAF3A4A0030CE15 /* YKProgressViewUITests.m */; };
+		4438EABF1EAF3B150030CE15 /* NSTimer+timer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4438EABE1EAF3B150030CE15 /* NSTimer+timer.m */; };
+		4438EAC21EAF3E2A0030CE15 /* YKProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4438EAC11EAF3E2A0030CE15 /* YKProgressView.m */; };
+		4438EAC61EAF4E360030CE15 /* circle_point1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4438EAC31EAF4E360030CE15 /* circle_point1.png */; };
+		4438EAC71EAF4E360030CE15 /* circle_point2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4438EAC41EAF4E360030CE15 /* circle_point2.png */; };
+		4438EAC81EAF4E360030CE15 /* circle_point3.png in Resources */ = {isa = PBXBuildFile; fileRef = 4438EAC51EAF4E360030CE15 /* circle_point3.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,13 @@
 		4438EAAA1EAF3A4A0030CE15 /* YKProgressViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YKProgressViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4438EAAE1EAF3A4A0030CE15 /* YKProgressViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YKProgressViewUITests.m; sourceTree = "<group>"; };
 		4438EAB01EAF3A4A0030CE15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4438EABD1EAF3B150030CE15 /* NSTimer+timer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+timer.h"; sourceTree = "<group>"; };
+		4438EABE1EAF3B150030CE15 /* NSTimer+timer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+timer.m"; sourceTree = "<group>"; };
+		4438EAC01EAF3E2A0030CE15 /* YKProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKProgressView.h; sourceTree = "<group>"; };
+		4438EAC11EAF3E2A0030CE15 /* YKProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKProgressView.m; sourceTree = "<group>"; };
+		4438EAC31EAF4E360030CE15 /* circle_point1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = circle_point1.png; sourceTree = "<group>"; };
+		4438EAC41EAF4E360030CE15 /* circle_point2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = circle_point2.png; sourceTree = "<group>"; };
+		4438EAC51EAF4E360030CE15 /* circle_point3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = circle_point3.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +113,7 @@
 		4438EA881EAF3A4A0030CE15 /* YKProgressView */ = {
 			isa = PBXGroup;
 			children = (
+				4438EABC1EAF3A5D0030CE15 /* YKProgressTool */,
 				4438EA8C1EAF3A4A0030CE15 /* AppDelegate.h */,
 				4438EA8D1EAF3A4A0030CE15 /* AppDelegate.m */,
 				4438EA8F1EAF3A4A0030CE15 /* ViewController.h */,
@@ -138,6 +151,20 @@
 				4438EAB01EAF3A4A0030CE15 /* Info.plist */,
 			);
 			path = YKProgressViewUITests;
+			sourceTree = "<group>";
+		};
+		4438EABC1EAF3A5D0030CE15 /* YKProgressTool */ = {
+			isa = PBXGroup;
+			children = (
+				4438EABD1EAF3B150030CE15 /* NSTimer+timer.h */,
+				4438EABE1EAF3B150030CE15 /* NSTimer+timer.m */,
+				4438EAC01EAF3E2A0030CE15 /* YKProgressView.h */,
+				4438EAC11EAF3E2A0030CE15 /* YKProgressView.m */,
+				4438EAC31EAF4E360030CE15 /* circle_point1.png */,
+				4438EAC41EAF4E360030CE15 /* circle_point2.png */,
+				4438EAC51EAF4E360030CE15 /* circle_point3.png */,
+			);
+			name = YKProgressTool;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,8 +273,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4438EAC61EAF4E360030CE15 /* circle_point1.png in Resources */,
 				4438EA991EAF3A4A0030CE15 /* LaunchScreen.storyboard in Resources */,
+				4438EAC81EAF4E360030CE15 /* circle_point3.png in Resources */,
 				4438EA961EAF3A4A0030CE15 /* Assets.xcassets in Resources */,
+				4438EAC71EAF4E360030CE15 /* circle_point2.png in Resources */,
 				4438EA941EAF3A4A0030CE15 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -273,9 +303,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4438EABF1EAF3B150030CE15 /* NSTimer+timer.m in Sources */,
 				4438EA911EAF3A4A0030CE15 /* ViewController.m in Sources */,
 				4438EA8E1EAF3A4A0030CE15 /* AppDelegate.m in Sources */,
 				4438EA8B1EAF3A4A0030CE15 /* main.m in Sources */,
+				4438EAC21EAF3E2A0030CE15 /* YKProgressView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

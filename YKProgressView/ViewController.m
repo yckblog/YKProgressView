@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "YKProgressView.h"
 @interface ViewController ()
 
 @end
@@ -16,7 +16,20 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+
+    //进度条
+    
+    /**1. 有动画缺口 带小圆点 */
+    YKProgressView *progressView = [[YKProgressView alloc] initWithFrame:CGRectMake((self.view.frame.size.width - 150)/2,  250, 150, 150) lineBackColor:nil lineFillColor:nil startAngle:-240 lineWidth:10];
+    progressView.lineBackColor = [UIColor lightGrayColor];
+    progressView.lineFillColor = [UIColor orangeColor];
+    progressView.reduceValue = -90;
+//    progressView.increaseFromLast = YES;
+    progressView.progress = 0.9;
+    [self.view addSubview:progressView];
+
+    /**2. 无动画*/
+    progressView.animationMode = YKCircleIncreaseSameTime;
 }
 
 
